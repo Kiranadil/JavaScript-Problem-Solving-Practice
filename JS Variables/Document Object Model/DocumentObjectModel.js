@@ -1,11 +1,19 @@
 function sendMessage(){
+
+    //access input HTML element--querySelector
+
     let inputElement =document.querySelector('#fullname');
     console.log(inputElement);
-    let  inputValue= fullname .value;
-    console.log(inputValue);
 
-    let headingElement=document.querySelector('h1 > #name');
+    //Get value of HTML input element
+    let  inputValue= inputElement .value;
+    console.log(inputValue);
+    
+    //Access H1 element
+    let headingElement=document.querySelector('h1 span');
     console.log(headingElement);
+
+    //Change content of <h1> element
     headingElement.innerHTML= inputValue;
 
     //Show alert

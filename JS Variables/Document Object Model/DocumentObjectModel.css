@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    border: 2px solid white;
+}
+input{
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border-radius: none;
+}
+h1{
+    color: white;
+    font-size: 3em;
+    font-family: fantasy;
+    font-weight: 200;
+}
+button{
+    padding: 7px 3em;
+    font-size: 1.5em;
+    background-color:rgb(197, 194, 194);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #0707078f;
+    transition: all 0.5s;
+    margin-bottom: 1em;
+}
